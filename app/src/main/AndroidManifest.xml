@@ -12,8 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinanceApp">
         <activity
+            android:name=".Activities.RepoActivity.ReportActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.IntroActivity.IntroActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,9 +27,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.FinanceApp">
-
-        </activity>
+            android:theme="@style/Theme.FinanceApp"></activity>
     </application>
 
 </manifest>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Finance App</string>
+    <string name="wallet">Wallet</string>
+    <string name="marker">Marker</string>
+    <string name="trade">Trade</string>
+    <string name="futures">Futures</string>
+    <string name="profile">Profile</string>
 </resources>

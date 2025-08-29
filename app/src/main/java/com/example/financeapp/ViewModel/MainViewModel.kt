@@ -7,4 +7,5 @@ class MainViewModel(val repository: MainRespository): ViewModel() {
     constructor(): this(MainRespository())
 
     fun loadData() = repository.items
+    fun loadBudgets() = repository.budgets
 }
